@@ -1,0 +1,14 @@
+FLOWMORI.AI — FIRST DEPLOY CHECKLIST
+===================================
+[ ] Download flowmori-site.zip and inspect files
+[ ] Visit https://dash.cloudflare.com/ and create a Pages Direct Upload project
+[ ] Upload the ZIP, verify *.pages.dev first
+[ ] Add flowmori.ai to Cloudflare as a DNS zone
+[ ] At current domain registrar, switch authoritative nameservers to Cloudflare-assigned values
+[ ] Bind flowmori.ai in Pages -> Custom domains
+[ ] Wait for HTTPS and verify homepage, /privacy/, 404, favicon and social preview
+[ ] Test mobile nav and EN/中文 switch
+[ ] When GitHub is public, set githubUrl in site-config.js
+[ ] When signed or test release exists, set downloadUrl in site-config.js
+[ ] Replace conceptual UI preview with real product screenshots
+[ ] Verify final app privacy statements and OS requirements before publishing
