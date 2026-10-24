@@ -8,7 +8,10 @@ FLOWMORI.AI — FIRST DEPLOY CHECKLIST
 [ ] Bind flowmori.ai in Pages -> Custom domains
 [ ] Wait for HTTPS and verify homepage, /privacy/, 404, favicon and social preview
 [ ] Test mobile nav and EN/中文 switch
-[ ] When GitHub is public, set githubUrl in site-config.js
-[ ] When signed or test release exists, set downloadUrl in site-config.js
+[x] Public GitHub, Issues, MIT License and README build links configured
+[x] Early Preview download CTAs use the tagged releaseUrl from site-config.js
+[ ] For the next version, update version in site-config.js and run node scripts/sync-release.mjs
+[ ] Verify release assets, preview status, installation notes and both languages
+[ ] Before pushing or merging, verify live Cloudflare production branch and preview rules if Git integration is enabled
 [ ] Replace conceptual UI preview with real product screenshots
-[ ] Verify final app privacy statements and OS requirements before publishing
+[ ] Verify app privacy statements and OS requirements before publishing: macOS 26 minimum; menu bar organization only on macOS 26.6.2 (25G83)
